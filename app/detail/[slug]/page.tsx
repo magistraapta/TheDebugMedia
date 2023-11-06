@@ -28,9 +28,7 @@ export default async function page({params}: {params:{slug:number}}) {
                 <h1 className=' text-7xl font-bold'>
                     {item.title}
                 </h1>
-                <div className='mt-6'>
-                <Image src={item.thumbnail} alt='image' width={800} height={200} />
-                </div>
+                
                
                 <div className='flex justify-between mt-6'>
                     <div className='w-8/12'>
